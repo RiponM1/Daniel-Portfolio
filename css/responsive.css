@@ -1,0 +1,51 @@
+/* started makeing responsive */
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+/* banner nav part start */
+@media (max-width: 575.99px) {
+    .main_menu .navbar-brand img {
+        width: 100px;
+    }
+
+    .navbar-toggler-icon i {
+        color: white;
+        border: solid 2px black;
+        padding: 10px 10px;
+        border-radius: 10px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .main_menu ul {
+        background-color: green;
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+    }
+
+    .last_one {
+        margin: 0;
+        border: transparent;
+    }
+
+    /* banner nav part done  */
+    /* banner part start  */
+    .banner_text p {
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .three_service {
+        background-color: none;
+
+    }
+
+    .follow_icon {
+        margin-top: 100px;
+    }
+
+    /* banner part end */
+}
